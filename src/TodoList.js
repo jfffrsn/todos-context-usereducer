@@ -3,10 +3,10 @@ import Todo from "./Todo";
 import Paper from "@material-ui/core/Paper";
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
-import { DispatchContext } from "./context/todos.context";
+import { TodosContext } from "./context/todos.context";
 
 function TodoList() {
-  const todos = useContext(DispatchContext);
+  const todos = useContext(TodosContext);
   if (todos.length)
     return (
       <Paper>
