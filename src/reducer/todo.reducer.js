@@ -1,5 +1,4 @@
 import uuid from "uuid/v4";
-
 const reducer = (state, action) => {
   switch (action.type) {
     case "ADD":
@@ -18,5 +17,4 @@ const reducer = (state, action) => {
       return state;
   }
 };
-
 export default reducer;
