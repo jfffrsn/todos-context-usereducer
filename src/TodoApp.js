@@ -7,6 +7,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Grid from "@material-ui/core/Grid";
 import useTodoState from "./hooks/useTodoState";
+import { TodosProvider } from "./context/todos.context";
 
 function TodoApp() {
   const initialTodos = [{ id: 1, task: "Walk The Goldfish", completed: true }];
@@ -23,20 +24,22 @@ function TodoApp() {
       }}
       elevation={0}
     >
-      <AppBar color='primary' position='static' style={{ height: "64px" }}>
+      <AppBar color="primary" position="static" style={{ height: "64px" }}>
         <Toolbar>
-          <Typography color='inherit'>TODOS WITH HOOKS</Typography>
+          <Typography color="inherit">TODOS WITH HOOKS</Typography>
         </Toolbar>
       </AppBar>
-      <Grid container justify='center' style={{ marginTop: "1rem" }}>
+      <Grid container justify="center" style={{ marginTop: "1rem" }}>
         <Grid item xs={11} md={8} lg={4}>
-          <TodoForm addTodo={addTodo} />
-          <TodoList
-            todos={todos}
-            removeTodo={removeTodo}
-            toggleTodo={toggleTodo}
-            editTodo={editTodo}
-          />
+          <TodosProvider>
+            <TodoForm addTodo={addTodo} />
+            <TodoList
+              todos={todos}
+              removeTodo={removeTodo}
+              toggleTodo={toggleTodo}
+              editTodo={editTodo}
+            />
+          </TodosProvider>
         </Grid>
       </Grid>
     </Paper>
