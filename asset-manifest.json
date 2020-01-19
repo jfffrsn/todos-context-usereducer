@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/todos-context-usereducer/static/css/main.462b0bd9.chunk.css",
+    "main.js": "/todos-context-usereducer/static/js/main.f4e4c144.chunk.js",
+    "main.js.map": "/todos-context-usereducer/static/js/main.f4e4c144.chunk.js.map",
+    "runtime-main.js": "/todos-context-usereducer/static/js/runtime-main.90f5acc6.js",
+    "runtime-main.js.map": "/todos-context-usereducer/static/js/runtime-main.90f5acc6.js.map",
+    "static/js/2.7e1a41d1.chunk.js": "/todos-context-usereducer/static/js/2.7e1a41d1.chunk.js",
+    "static/js/2.7e1a41d1.chunk.js.map": "/todos-context-usereducer/static/js/2.7e1a41d1.chunk.js.map",
+    "index.html": "/todos-context-usereducer/index.html",
+    "precache-manifest.24b4a1e5a177220a6cdd28dcbd5d251e.js": "/todos-context-usereducer/precache-manifest.24b4a1e5a177220a6cdd28dcbd5d251e.js",
+    "service-worker.js": "/todos-context-usereducer/service-worker.js",
+    "static/css/main.462b0bd9.chunk.css.map": "/todos-context-usereducer/static/css/main.462b0bd9.chunk.css.map",
+    "static/js/2.7e1a41d1.chunk.js.LICENSE": "/todos-context-usereducer/static/js/2.7e1a41d1.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90f5acc6.js",
+    "static/js/2.7e1a41d1.chunk.js",
+    "static/css/main.462b0bd9.chunk.css",
+    "static/js/main.f4e4c144.chunk.js"
+  ]
+}
